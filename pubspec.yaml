@@ -1,0 +1,39 @@
+name: smart_file_sharing_app
+description: "Offline-first Flutter app for file sharing and collaboration with version control and conflict resolution."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.1.0
+  path_provider: ^2.1.1
+  intl: ^0.19.0
+  uuid: ^4.0.0
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
+  connectivity_plus: ^5.0.0
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
